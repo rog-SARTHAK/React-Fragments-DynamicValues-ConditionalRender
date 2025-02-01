@@ -22,7 +22,6 @@ return <Fragment> // </Fragment>
 - Alternatively, you can also use its shorthand syntax:
 ```
 <> // </>
-
 ```
 
 
@@ -39,5 +38,6 @@ function MyComponent(){
 }
 ```
 - JSX allows you to write JavaScript expressions inside curly braces which includes operations, function calls, and other JS expressions that produce a value.
-
-- return <div> The result is: {1 + 2 + 3} </div>;
+```
+return <div> The result is: {1 + 2 + 3} </div>;
+```
