@@ -11,9 +11,9 @@ React Fragments:
 - In React.js, a component can't return multiple elements without a wrapper div.
 
 - You can do this to imitate it: Using an Array of Elements with Keys
-
-- return [<p>Ram</p>, <strong>20</strong>];
-
+```
+return [<p>Ram</p>, <strong>20</strong>];
+```
 - But it's tedious, to fix this React 16 introduced Fragments, which allow components to return multiple elements without adding extra nodes to the DOM.
 ```
 import { Fragment } from "react";
